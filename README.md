@@ -44,10 +44,12 @@ The scraped text content in the variable background_texts is formated to remove 
 
 ## Scraped Text Example
 This was scraped from the page https://fallout-archive.fandom.com/wiki/Bert_Gunnarsson
-``race: Ghoul
+```
+race: Ghoul
 gender: Male
 affiliation: Followers of the ApocalypseNew Canaan (formerly)New California Republic
 role: MinisterDoctor
 summary: Elder Bert Gunnarsson is a Mormon who is a doctor and minister residing in the Aerotech office park refugee camp in New Vegas in Fallout: New Vegas.
  A Mormon priest from Utah, Bert is a relatively new arrival in the Mojave wasteland, having come to the area only six months earlier.He followed the trail his old friend, Nephi, in an attempt to turn him back to the Church, away from drugs and the Fiends. To do so, Bret trained under the Followers of the Apocalypse to learn medicine and other forms of care. However, after following him to New Vegas, he soon realized that it is a lost cause, that Nephi allowed himself to be consumed by drugs and hate.
-Bert, despite losing his friend, chose to move on.  He saw an opportunity to help Vegas at the Aerotech Office Park that the NCR repurposed into a refugee camp. Much to the chagrin of the Followers, he chose to focus his efforts in guiding through ministry and as a doctor, helping the beleaguered  Captain Parker. He accepts the fact that Nephi will one day be killed and hopes his soul will find peace.``
+Bert, despite losing his friend, chose to move on.  He saw an opportunity to help Vegas at the Aerotech Office Park that the NCR repurposed into a refugee camp. Much to the chagrin of the Followers, he chose to focus his efforts in guiding through ministry and as a doctor, helping the beleaguered  Captain Parker. He accepts the fact that Nephi will one day be killed and hopes his soul will find peace.
+```
