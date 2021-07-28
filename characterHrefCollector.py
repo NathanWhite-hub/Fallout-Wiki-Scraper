@@ -16,7 +16,7 @@ def run(playwright):
     hrefs = page.query_selector_all("table.va-table >> tbody >> tr >> td:nth-child(1) >> a")
 
     # Create CSV file to write raw data to
-    with open('C:\\Users\\zenti\\Desktop\\Programs\\character_hrefs_raw.csv', 'a', newline='\n') as raw_file:
+    with open('\\Programs\\character_hrefs_raw.csv', 'a', newline='\n') as raw_file:
         csv_writer = csv.writer(raw_file)
         
         # For each element in the elements, get the href attribute and add it to the end of the base link.
@@ -33,7 +33,7 @@ def run(playwright):
     raw_file.close()
 
     # Re open the raw csv data to read it, and open a new csv file to write.
-    with open('C:\\Users\\zenti\\Desktop\\Programs\\character_hrefs_raw.csv', 'r') as raw_file, open('C:\\Users\\zenti\\Desktop\\Programs\\character_hrefs.csv', 'w') as sorted_file:
+    with open('\\Programs\\character_hrefs_raw.csv', 'r') as raw_file, open('\\Programs\\character_hrefs.csv', 'w') as sorted_file:
         # Read each line in the raw CSV to check if there are duplicates. If so, don't write that line and only write unique lines.
         sorted_file.writelines(unique_everseen(raw_file))
     # Close both files.
