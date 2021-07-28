@@ -16,7 +16,7 @@ def run(playwright):
     hrefs = page.query_selector_all(".va-columns >> a")
 
     # Create CSV file to write raw data to
-    with open('C:\\Users\\zenti\\Desktop\\Programs\\location_hrefs_raw.csv', 'a', newline='\n') as raw_file:
+    with open('Programs\\location_hrefs_raw.csv', 'a', newline='\n') as raw_file:
         csv_writer = csv.writer(raw_file)
         
         # For each element in the elements, get the href attribute and add it to the end of the base link.
