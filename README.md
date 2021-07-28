@@ -5,5 +5,5 @@ In order to get comfortable with Playwright amazing features for automating navi
 
 This project was difficult due to me having to make this as dynamic as possible. Each page has a similar, but slightly different layout and programing it to be completely automated meant me having to account for this.
 
-[h2]The Start[/h2]
-This program starts with the character href scraper which goes to the page on 
+## The Start
+This program starts with the *character href scraper script* which goes to the page on 
