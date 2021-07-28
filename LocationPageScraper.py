@@ -6,7 +6,7 @@ from playwright.sync_api import sync_playwright
 
 def run(playwright):
     browser = playwright.chromium.launch(headless=False)
-    with open('C:\\Users\\zenti\\Desktop\\Programs\\location_hrefs.csv') as locationlinks:
+    with open('\\Programs\\location_hrefs.csv') as locationlinks:
         for link in locationlinks:
             context = browser.new_context()
             background_texts = ''
@@ -35,7 +35,7 @@ def run(playwright):
             character_name = character_name.text_content()
             print(character_name)
 
-            with open('C:\\Users\\zenti\\Desktop\\Programs\\location page dumps\\' + text_document_name, 'w', encoding="utf-8") as cd:
+            with open('\\Programs\\location page dumps\\' + text_document_name, 'w', encoding="utf-8") as cd:
 
                 page.wait_for_selector('table.va-infobox-group >> tbody >> tr')
                 infoboxes = page.query_selector_all('table.va-infobox-group >> tbody >> tr:visible')
